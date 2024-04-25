@@ -25,6 +25,9 @@ const Index = () => {
           <Button leftIcon={<FaArchive />} colorScheme="green">
             Archive
           </Button>
+          <Button leftIcon={<FaSearch />} colorScheme="purple">
+            AI Search
+          </Button>
         </HStack>
         <Grid templateColumns="repeat(3, 1fr)" gap={6} w="full">
           <GridItem colSpan={1}>
